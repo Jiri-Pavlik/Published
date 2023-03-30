@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "resourceGroup": {
+            "value": "rg-azeuw-bastion"
+        },
+        "bastionHostName": {
+            "value": "ba-azeuw-bastion-02"
+        },
+        "bastionHostSku": {
+            "value": "Standard"
+        },
+        "bastionHostScaleUnits": {
+            "value": 2
+        },
+        "enableIpConnect": {
+            "value": true
+        },
+        "enableTunneling": {
+            "value": true
+        },
+        "enableShareableLink": {
+            "value": true
+        },
+        "subnetId": {
+            "value": "/subscriptions/a8e64e21-152d-47c3-a383-801c2636792f/resourceGroups/rg-azeuw-infra-core/providers/Microsoft.Network/virtualNetworks/vnet-azeuw-01/subnets/AzureBastionSubnet"
+        },
+        "enableKerberos": {
+            "value": true
+        },
+        "disableCopyPaste": {
+            "value": false
+        },
+        "publicIpAddressName": {
+            "value": "vnet-azeuw-02-ip"
+        }
+    }
+}
