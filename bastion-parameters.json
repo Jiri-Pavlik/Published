@@ -9,7 +9,7 @@
             "value": "rg-azeuw-bastion"
         },
         "bastionHostName": {
-            "value": "ba-azeuw-bastion-02"
+            "value": "ba-azeuw-bastion-01"
         },
         "bastionHostSku": {
             "value": "Standard"
