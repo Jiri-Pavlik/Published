@@ -6,10 +6,10 @@
             "value": "westeurope"
         },
         "resourceGroup": {
-            "value": "rg-azeuw-bastion"
+            "value": "rg-euw-bastion"
         },
         "bastionHostName": {
-            "value": "ba-azeuw-bastion-02"
+            "value": "ba-euw-bastion-02"
         },
         "bastionHostSku": {
             "value": "Standard"
@@ -27,7 +27,7 @@
             "value": true
         },
         "subnetId": {
-            "value": "/subscriptions/a8e64e21-152d-47c3-a383-801c2636792f/resourceGroups/rg-azeuw-infra-core/providers/Microsoft.Network/virtualNetworks/vnet-azeuw-01/subnets/AzureBastionSubnet"
+            "value": "/subscriptions/c5b17839-277c-4a25-96ae-cb19f78d91f6/resourceGroups/rg-euw-infra-core/providers/Microsoft.Network/virtualNetworks/vnet-azeuw-01/subnets/AzureBastionSubnet"
         },
         "enableKerberos": {
             "value": true
